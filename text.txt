@@ -1,0 +1,6 @@
+&if ( i in range ( 21 ) ) {
+    set ( number1 , number2 )
+    &if ( eq ( num1 , num2 ) ) { add ( num1 , num2 ) @ getInfo ( username ) }
+}
+&while ( eq ( number3 , number4 ) ) { }
+set ( name1 , name2 )
