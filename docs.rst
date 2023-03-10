@@ -25,10 +25,10 @@ Syntax
   
 .. code-block:: python
   
-   > &if ( $number1 > $number2 ) {  }
-   > &for ( i in range ( $number1 ) ) {  }
-   > $while ( $status ) {  }
-   > set ( name , "pooriagg" )
+   > &if ( $number1 > $number2 ) {  }           > lt ( $number1 , $number2 )
+   > &for ( i in range ( $number1 ) ) {  }      > gt ( $number1 , $number2 )
+   > $while ( $status ) {  }                    > eq ( $number1 , $number2 )
+   > set ( name , "pooriagg" )                  > # comment
    > func test ( ) {  }
    > @test (  )
    > add ( $number1 , $number2 )
